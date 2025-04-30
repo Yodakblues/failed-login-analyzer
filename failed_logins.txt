@@ -1,0 +1,6 @@
+Apr 29 05:36:47 localhost sudo[7889]:    root : TTY=pts/0 ; PWD=/home/kankomah ; USER=root ; COMMAND=/bin/grep 'Failed password' /var/log/secure
+Apr 29 06:20:40 localhost sshd[10016]: Failed password for invalid user wronguser from ::1 port 50100 ssh2
+Apr 29 06:21:21 localhost sshd[10016]: Failed password for invalid user wronguser from ::1 port 50100 ssh2
+Apr 29 06:21:29 localhost sshd[10016]: Failed password for invalid user wronguser from ::1 port 50100 ssh2
+Apr 29 06:21:54 localhost sudo[10072]:    root : TTY=pts/0 ; PWD=/home/kankomah ; USER=root ; COMMAND=/bin/grep 'Failed password' /var/log/secure
+Apr 30 08:47:09 localhost sudo[15722]: kankomah : user NOT in sudoers ; TTY=pts/0 ; PWD=/home/kankomah/failed-login-analyzer ; USER=root ; COMMAND=/bin/grep 'Failed password' /var/log/secure
